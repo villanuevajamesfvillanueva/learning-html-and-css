@@ -1,0 +1,80 @@
+body {
+    background: whitesmoke;
+    color: #414535;
+    font-family: serif;
+    text-align: center;
+    margin: 0;
+}
+
+#hdr {  /*use hash to refer to id*/
+    min-height: 220px;
+    padding-top: 3em;
+    padding-bottom: 0;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.dest { /*use dot for class name*/
+    background: #C19875;
+    width: 40%;
+    display: inline-block;
+    
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    text-decoration: none;
+    color: #414535;
+    padding: 1em 1.5em;
+    border: 1px solid #C19875;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.button:hover {
+    background: #C19875;
+}
+
+.hdr-bg {
+    background: url('../images/the-maldives-is-back-on-the-map-for-international-tourism.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 28.5%;
+    /*min-height: 220px;*/
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    margin: 0;
+}
+
+footer {
+    min-height: 35px;
+    background: #618985;
+    color: #414535;
+    line-height: 35px;
+}
+
+.contact {
+    /*background: #414535;*/
+    min-height: 100px;
+}
+
+.prices {
+    background: #f2e3bc;
+    min-height: 100px;
+}
+
+section {
+    padding: 1.5em;
+}
